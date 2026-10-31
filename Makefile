@@ -1,9 +1,16 @@
-.PHONY: main clean FORCE
+.PHONY: all main landscape portrait clean FORCE
 
-main: poster.pdf
+POSTERS := poster-landscape poster-portrait
+PDFS := $(addsuffix .pdf,$(POSTERS))
 
-poster.pdf: FORCE
-	latexmk -pdflatex='lualatex -interaction nonstopmode' -pdf poster.tex
+all main: $(PDFS)
+
+landscape: poster-landscape.pdf
+
+portrait: poster-portrait.pdf
+
+%.pdf: %.tex FORCE
+	latexmk -pdflatex='lualatex -interaction nonstopmode' -pdf $<
 
 clean:
-	latexmk -pdf -C
+	latexmk -pdf -C $(addsuffix .tex,$(POSTERS))

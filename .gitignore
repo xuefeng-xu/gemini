@@ -12,3 +12,9 @@
 *.toc
 *.fdb_latexmk
 *.fls
+
+!assets/*.pdf
+!logo.pdf
+!qrcode.pdf
+
+.DS_Store
