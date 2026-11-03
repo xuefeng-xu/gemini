@@ -1,6 +1,8 @@
-# Warwick LaTex Poster Template
+# University of Warwick Poster Template
 
-A LaTeX beamerposter theme for the University of Warwick, adapted from [gemini](https://github.com/anishathalye/gemini).
+- A LaTeX beamerposter theme adapted from [gemini](https://github.com/anishathalye/gemini).
+- Uses the University of Warwick's [official colours](https://brand.warwick.ac.uk/en/brand-guidelines/design-elements/).
+- Provides both landscape and portrait templates.
 
 ## Dependencies
 
