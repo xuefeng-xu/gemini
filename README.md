@@ -1,6 +1,6 @@
-# Gemini (Warwick)
+# Warwick LaTex Poster Template
 
-Gemini is a modern LaTeX [beamerposter] theme.
+A LaTeX beamerposter theme for the University of Warwick, adapted from [gemini](https://github.com/anishathalye/gemini).
 
 ## Dependencies
 
