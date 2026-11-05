@@ -6,6 +6,12 @@
 
 ## Dependencies
 
+### Overleaf
+
+- [Click to create a new project on Overleaf](https://www.overleaf.com/docs?snip_uri=https://github.com/xuefeng-xu/gemini/archive/refs/heads/warwick.zip&engine=lualatex)
+
+### Build locally
+
 - Select `LuaLaTeX` as the compiler.
 - To use `Makefile`, `latexmk` is needed.
 
@@ -16,8 +22,8 @@
 Use [poster-landscape.tex](poster-landscape.tex), or run `make landscape`
 
 <p align="center">
-<a href="./assets/poster-landscape.pdf">
-<img src="./assets/poster-landscape.png">
+<a href="https://raw.githubusercontent.com/xuefeng-xu/gemini/assets/warwick/poster-landscape.pdf">
+<img src="https://raw.githubusercontent.com/xuefeng-xu/gemini/assets/warwick/poster-landscape.png">
 </a>
 </p>
 
@@ -26,8 +32,8 @@ Use [poster-landscape.tex](poster-landscape.tex), or run `make landscape`
 Use [poster-portrait.tex](poster-portrait.tex), or run `make portrait`
 
 <p align="center">
-<a href="./assets/poster-portrait.pdf">
-<img src="./assets/poster-portrait.png">
+<a href="https://raw.githubusercontent.com/xuefeng-xu/gemini/assets/warwick/poster-portrait.pdf">
+<img src="https://raw.githubusercontent.com/xuefeng-xu/gemini/assets/warwick/poster-portrait.png">
 </a>
 </p>
 
